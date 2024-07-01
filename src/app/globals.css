@@ -19,4 +19,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  @variants responsive {
+    .icon-responsive {
+      @apply w-8 h-8;
+    }
+    .md:icon-responsive {
+      @apply w-10 h-10; 
+    }
+    .image-responsive{
+      @apply w-16 h-16
+    }
+    
+  }
 }
